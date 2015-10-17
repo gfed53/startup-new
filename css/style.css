@@ -7,10 +7,14 @@ html {
 	box-sizing: inherit;
 } 
 
-/* body {
-	background-color: LightGray;
-	border: 2px solid Chocolate;
-} */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	/* background-color: LightGray; */
+	/* border: 2px solid Chocolate; */
+}
 
 div {
 	border: 1px solid Chocolate;
@@ -23,10 +27,6 @@ div {
 /*Navigation Section*/
 .top-navigation {
 	background-color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #838994;
-	letter-spacing: 0.03em;
 	/* max-width: 55em; */
 	border: 1px solid Chocolate;
 	/* margin: 0 auto;
@@ -85,32 +85,36 @@ div {
 
 .jumbotron {
 	text-align: center;
-	background: url("../images/first-background-copy.jpg") no-repeat center center;/*Image not loading. Also, logo.png isnt' coming up in the Network path sections. It did before*/
+	background: url("../images/first-background-copy.jpg") no-repeat;
 	background-size: cover;
 	margin: 0 auto;
-	/*padding-top: 1em;*/
-	height: 40em;
+	/* padding-top: 1em; */
+	background-position: 0 bottom;
+	height: 45em;
 	color: White;
-	border: 1px solid Chocolate;
+	border: 1px solid Chocolate; /*Commenting this line out does something strange with the margins*/
 }
 
 .jumbotron .content {
 	margin-top: 10em;
-	/*height: 50em;*/
+	
 }
 
 .jumbotron .content h1 {
 	font-size: 3em;
+	font-weight: 300;
+
 }
 
 .jumbotron .content h2 {
 	margin-bottom: 1.5em; /*But this does*/
+	font-weight: 300;
 }
 
-.jumbotron .content a {
-	text-decoration: none;
-	padding: 1em 2em;
-	/*margin-top: 2em; Why doesn't this have any effect?*/ 
+.big-button {
+	border-style: none;
+	text-shadow: none;
+	padding: 1em 2em; 
 	border-radius: .3em;
 	background-color: #F15A29;
 	color: White;
