@@ -27,12 +27,13 @@ div {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
-	/*max-width: 55em;
-	margin: 0 auto;
+	/* max-width: 55em; */
+	border: 1px solid Chocolate;
+	/* margin: 0 auto;
 	margin: 0 0 20em 3em;
 	text-align: center;
-	display: inline;*/
-
+	display: inline;
+	 */
 }
 
 .top-navigation > .content {
@@ -84,10 +85,13 @@ div {
 
 .jumbotron {
 	text-align: center;
-	background-image: url("../images/first-background-copy.jpg") no-repeat center;/*Image not loading. Also, logo.png isnt' coming up in the Network path sections. It did before*/
+	background: url("../images/first-background-copy.jpg") no-repeat center center;/*Image not loading. Also, logo.png isnt' coming up in the Network path sections. It did before*/
+	background-size: cover;
 	margin: 0 auto;
 	/*padding-top: 1em;*/
-	height: 100em;
+	height: 40em;
+	color: White;
+	border: 1px solid Chocolate;
 }
 
 .jumbotron .content {
