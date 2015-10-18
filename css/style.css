@@ -25,9 +25,9 @@ h2 {
 	font-weight: 300;
 }
 
-div {
+/* div {
 	border: 1px solid Chocolate;
-}
+} */
 
  /* * {
   	border: 1px solid Chocolate;
@@ -106,7 +106,7 @@ div {
 	background-size: cover;
 	/*margin: 0 auto;*/
 	/* padding-top: 1em; */
-	background-position: 0 bottom;
+	background-position: center bottom;
 	height: 45em;
 	color: White;
 	overflow: auto;
@@ -175,9 +175,18 @@ div {
 }
 
 .the-footer {
-	
+	text-align: center;
+	margin-top: 3em;
+
 }
 
+.the-footer .content {
+	border-top: 1px solid Grey;
+}
+
+.the-footer .grey {
+	color: Grey;
+}
 
 
 
