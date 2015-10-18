@@ -40,6 +40,7 @@ h2 {
 	width: 100%; 
 	position: fixed;
 	z-index: 9999;
+	border-bottom: 1px solid LightGray;
 	/* margin: 0 auto;
 	margin: 0 0 20em 3em;
 	text-align: center;
@@ -57,6 +58,7 @@ h2 {
 
 .top-navigation > .content {
 	padding: 0px 15px;
+
 }
 
 .content > .logo,
@@ -111,11 +113,12 @@ h2 {
 	color: White;
 	overflow: auto;
 	/*border: 1px solid Chocolate; */
-	/*^Commenting this line out does something strange with the margins^*/
 }
 
 /* .jumbotron .content {
 	margin-top: 11em;
+	Even though the background prop is for the element .jumbotron, if you add margin-top property here,
+	the background image will be pushed down. 
 	
 } */
 
@@ -174,21 +177,29 @@ h2 {
 	margin-right: -.4em;
 }
 
+/*The Footer Section*/
+
 .the-footer {
 	text-align: center;
-	margin-top: 3em;
+	margin: 7em auto;
 
 }
 
 .the-footer .content {
-	border-top: 1px solid Grey;
+	border-top: 1px solid LightGrey;
 }
 
-.the-footer .grey {
+.the-footer p {
+	font-size: .95em;
+}
+
+.the-footer .grey-text {
+	margin-top: 1.5em;
 	color: Grey;
 }
 
 
+/*Older Unused CSS*/
 
 /* nav img {
 	width: 1.5em;
