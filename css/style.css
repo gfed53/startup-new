@@ -36,7 +36,7 @@ div {
 	 */
 }
 
-.top-navigation > .content {
+/*.top-navigation >*/ .content {
 	width: 62rem;
 	height: 4.375rem;
 	margin: 0 auto;
@@ -83,26 +83,31 @@ div {
 	cursor: pointer;
 }
 
+/*Introduction Section*/
+
 .jumbotron {
 	text-align: center;
 	background: url("../images/first-background-copy.jpg") no-repeat;
 	background-size: cover;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	/* padding-top: 1em; */
 	background-position: 0 bottom;
 	height: 45em;
 	color: White;
-	border: 1px solid Chocolate; /*Commenting this line out does something strange with the margins*/
+	overflow: auto;
+	/*border: 1px solid Chocolate; */
+	/*^Commenting this line out does something strange with the margins^*/
 }
 
-.jumbotron .content {
+/* .jumbotron .content {
 	margin-top: 11em;
 	
-}
+} */
 
 .jumbotron .content h1 {
 	font-size: 3.1em;
 	font-weight: 300;
+	margin-top: 4em;
 	margin-bottom: -.2em;
 
 }
