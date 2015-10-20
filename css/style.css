@@ -29,10 +29,6 @@ h2 {
 	border: 1px solid Chocolate;
 } */
 
- /* * {
-  	border: 1px solid Chocolate;
-  } */ 
-
 
 /*Navigation Section*/
 .top-navigation {
@@ -196,6 +192,27 @@ h2 {
 .the-footer .grey-text {
 	margin-top: 1.5em;
 	color: Grey;
+}
+
+.the-footer li {
+	display: inline-block;
+	padding: 1em;
+	margin: .5em;
+	border: 1px solid LightGrey;
+	border-radius: 4em;
+}
+
+.fa-twitter {
+	color: LightBlue;
+}
+
+.fa-facebook {
+	color: Blue;
+	padding: 0em .3em;
+}
+
+.fa-instagram {
+	color: Cyan;
 }
 
 
