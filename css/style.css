@@ -3,6 +3,10 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
+/* * {
+	border: 1px solid Chocolate;
+} */
+
 *, *:before, *:after { 
 	box-sizing: inherit;
 } 
@@ -194,18 +198,23 @@ h2 {
 	color: Grey;
 }
 
+.the-footer ul {
+	margin-right: 2.4em;
+}
+
 .the-footer li {
 	display: inline-block;
 	padding: 1em;
 	margin: .5em;
 	border: 1px solid LightGrey;
-	border-radius: 4em;
+	border-radius: 7em;
 }
 
 .fa-twitter {
 	color: LightBlue;
 }
 
+/*Since icon size is different, the individual padding is altered*/
 .fa-facebook {
 	color: Blue;
 	padding: 0em .3em;
