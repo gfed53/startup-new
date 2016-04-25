@@ -1,11 +1,8 @@
+/*General*/
 html {
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
 }
-
-/* * {
-	border: 1px solid Chocolate;
-} */
 
 *, *:before, *:after { 
 	box-sizing: inherit;
@@ -16,8 +13,6 @@ body, {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
-	/* background-color: LightGray; */
-	/* border: 2px solid Chocolate; */
 }
 
 h1 {
@@ -29,11 +24,6 @@ h2 {
 	font-weight: 300;
 }
 
-/* div {
-	border: 1px solid Chocolate;
-} */
-
-
 /*Navigation Section*/
 .top-navigation {
 	background-color: #fff;
@@ -41,24 +31,15 @@ h2 {
 	position: fixed;
 	z-index: 9999;
 	border-bottom: 1px solid LightGray;
-	/* margin: 0 auto;
-	margin: 0 0 20em 3em;
-	text-align: center;
-	display: inline;
-	 */
 }
 
-/*.top-navigation >*/ .content {
+.content {
 	width: 62rem;
-	/*height: 4.375rem;*/
 	margin: 0 auto;
-	/*padding: 0px 15px;*/
-
 }
 
 .top-navigation > .content {
 	padding: 0px 15px;
-
 }
 
 .content > .logo,
@@ -81,19 +62,16 @@ h2 {
 	margin-left: .8em;
 }
 
-.links li a { /*We have to target 'a', not 'li' to have an effect on the text?*/
+.links li a {
 	text-decoration: none;
 	font-size: 1.06em;
 	color: Grey;
 }
 
-
 .top-navigation .links > .active a {
 	color: #4c5058;
     font-weight: 500;
 }
-
-
 
 .links li a:hover {
 	color: #4c5058;
@@ -101,26 +79,15 @@ h2 {
 }
 
 /*Introduction Section*/
-
 .jumbotron {
 	text-align: center;
 	background: url("../images/first-background-copy.jpg") no-repeat;
 	background-size: cover;
-	/*margin: 0 auto;*/
-	/* padding-top: 1em; */
 	background-position: center bottom;
 	height: 45em;
 	color: White;
 	overflow: auto;
-	/*border: 1px solid Chocolate; */
 }
-
-/* .jumbotron .content {
-	margin-top: 11em;
-	Even though the background prop is for the element .jumbotron, if you add margin-top property here,
-	the background image will be pushed down. 
-	
-} */
 
 .jumbotron .content h1 {
 	margin-top: 6em;
@@ -129,7 +96,7 @@ h2 {
 }
 
 .jumbotron .content h2 {
-	margin-bottom: 1.5em; /*But this does*/
+	margin-bottom: 1.5em;
 }
 
 .big-button {
@@ -150,7 +117,6 @@ h2 {
 }
 
 /*Three Icon Section*/
-
 .three-icon {
 	text-align: center;
 	display: flex;
@@ -162,7 +128,6 @@ h2 {
 	margin-bottom: 1em;
 }
 
-/*text align is slightly off relative to icon*/
 .three-icon h2 {
 	margin-top: 1.5em;
 	font-weight: 400;
@@ -178,31 +143,29 @@ h2 {
 }
 
 /*The Footer Section*/
-
-.the-footer {
+.mast-footer {
 	text-align: center;
 	margin: 7em auto;
-
 }
 
-.the-footer .content {
+.mast-footer .content {
 	border-top: 1px solid LightGrey;
 }
 
-.the-footer p {
+.mast-footer p {
 	font-size: .95em;
 }
 
-.the-footer .grey-text {
+.mast-footer .grey-text {
 	margin-top: 1.5em;
 	color: Grey;
 }
 
-.the-footer ul {
+.mast-footer ul {
 	margin-right: 2.4em;
 }
 
-.the-footer li {
+.mast-footer li {
 	display: inline-block;
 	padding: 1em;
 	margin: .5em;
@@ -214,7 +177,6 @@ h2 {
 	color: LightBlue;
 }
 
-/*Since icon size is different, the individual padding is altered*/
 .fa-facebook {
 	color: Blue;
 	padding: 0em .3em;
@@ -223,30 +185,6 @@ h2 {
 .fa-instagram {
 	color: Cyan;
 }
-
-
-/*Older Unused CSS*/
-
-/* nav img {
-	width: 1.5em;
-} */
-
-/* nav li {
-	display: inline-block;
-	padding: 0 1em;
-	
-} */
-
-
-/* nav a {
-	text-decoration: none;
-	font-weight: 550;
-	color: Grey;
-	transition-property: color;
-	transition-duration: .3s;
-} */
-
-
 
 
 
